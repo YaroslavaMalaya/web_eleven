@@ -1,0 +1,66 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 245, 245);
+}
+
+#container1{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: #e0e0fa;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#container1 span { 
+    font-size: 30px;
+    width: 100%;           
+    text-align: center;    
+    margin: 20px;
+}
+
+#container1 button { 
+    flex-basis: calc(50% - 10px);  
+    margin-right: 10px;  
+}
+
+#output{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    max-width: 190px;
+    margin-top: 20px;
+    color: white; 
+    text-align: center;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px; 
+    border: 1px solid #0400ff;
+    background: #0400ff;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+button:active{
+    color: #0400ff;
+    border: 1px solid #0400ff;
+    background-color: white; 
+}
+
+.highlighted {
+    background-color: #fad0ff;
+    padding: 10px;
+    border-radius: 10px;
+}
